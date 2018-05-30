@@ -1,0 +1,26 @@
+{
+  "name": "belashjack-2018Q1",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint .",
+    "precommit": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/belashjack-2018Q1.git"
+  },
+  "author": "Yauheni Belash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/belashjack-2018Q1/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/belashjack-2018Q1#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "husky": "^0.14.3"
+  }
+}
